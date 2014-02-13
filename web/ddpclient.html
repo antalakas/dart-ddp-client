@@ -12,8 +12,27 @@
     <textarea rows="10" cols="40" id="output"></textarea>
     
     <p>
-      <button id="connect" type="button">Connect to webSocket</button>
-      <button id="close" type="button">Close webSocket</button>
+      <button id="connect" type="button">Step1: Connect to webSocket</button>
+    </p>
+    
+    <p>
+      <button id="subscribeAutoUpdate" type="button">Step2: Subscribe Auto Update</button>
+    </p>
+    
+    <p>
+      <button id="subscribeLoginService" type="button">Step3: Subscribe Login Service</button>
+    </p>
+    
+    <p>
+      <button id="subscribe" type="button">Step4: Subscribe to posts collection</button>
+    </p>
+    
+    <p>
+      <button id="unsubscribe" type="button">Step5: End Subscription to posts</button>
+    </p>      
+    
+    <p>
+      <button id="close" type="button">Step6: Close webSocket</button>
     </p>
     
     <script type="application/dart" src="ddpclient.dart"></script>
